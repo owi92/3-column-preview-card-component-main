@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -52,7 +54,7 @@ body {
   color: inherit;
   font-family: 'Lexend Deca';
   font-size: 0.925rem;
-  margin-top: 1em;
+  /* margin-top: 1em; */
   padding: 1em 2em;
   white-space: nowrap;
 }
